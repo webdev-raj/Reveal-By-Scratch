@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scratch Nad Reveal</title>
+</head>
+
+<body class="font-[font2] font-semibold">
+    <div class="sit-content">
+        <video id="video" class="min-h-full min-w-full fixed right-0 bottom-0 object-cover brightness-50" muted autoplay loop>
+            <source src="./Assets/video/luffy-gear-5-lightning-god-one-piece-moewalls-com.mp4">
+        </video>
+    </div>
+
+    <div id="container" class="pointer-events-none h-screen w-full z-10 relative text-white">
+        <div class="relative z-30 flex items-center justify-between py-5 px-5">
+            <h1 class="font-semibold text-4xl select-none font-[font1] tracking-tight">Luffy-reveal</h1>
+            <div class="flex items-center gap-14 select-none max-md:hidden">
+                <a href="#" class="font-semibold capitalize text-[1.05rem] text-gray-300">project</a>
+                <a href="#" class="font-semibold capitalize text-[1.05rem] text-gray-300">About us</a>
+                <a href="#" class="font-semibold capitalize text-[1.05rem] text-gray-300">Our Services</a>
+                <a href="#" class="font-semibold capitalize text-[1.05rem] text-gray-300">Our Incubators</a>
+                <a href="#" class="font-semibold capitalize text-[1.05rem] text-gray-300">Contact</a>
+                <a href="#" class="font-semibold capitalize text-[1.05rem] text-gray-300">careers</a>
+            </div>
+        </div>
+        <div class="absolute top-1/2 -translate-y-1/2 text-center w-full">
+            <h1 class="text-[14rem] capitalize leading-none tracking-tight font-[font1] max-md:text-9xl">reveal</h1>
+            <p class="text-xl max-md:text-lg">Luffy's Gear 5: Unstoppable power, limitless<br> determination.</p>
+        </div>
+        <div class="w-full flex justify-between py-4 px-5 absolute bottom-0 capitalize">
+            <div>
+                <a href="#">instagram</a>,
+                <a href="#">behance</a>
+            </div>
+            <div>
+                <a href="#">showreal (2024)</a>
+            </div>
+        </div>
+    </div>
+    <canvas class="h-screen w-screen absolute top-0 left-0" id="draw"></canvas>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

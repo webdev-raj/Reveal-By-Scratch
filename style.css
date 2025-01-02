@@ -1,0 +1,15 @@
+@font-face{
+    font-family: font1;
+    src: url('./Assets/fonts/BebasNeue-Regular.ttf');
+}
+@font-face{
+    font-family: font2;
+    src: url('./Assets/fonts/Gilroy-Light.ttf');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*::selection{
+    background-color: transparent;
+    color: white;
+}
