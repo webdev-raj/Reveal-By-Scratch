@@ -15,4 +15,4 @@ A simple scratch card effect using HTML, CSS, and JavaScript. Scratch the surfac
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/scratch-card-effect.git
+   git clone https://github.com/webdev-raj/Reveal-By-Scratch.git
